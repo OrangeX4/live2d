@@ -17,14 +17,13 @@
 	"content_scripts": 
 	[
 		{
-			"matches": ["https://*/*"],
+			"matches": ["<all_urls>"],
 			"js": ["content-script.js"]
+			
 		}
 	],
 	"web_accessible_resources": 
 	[
-		"inject.js",
-		"autoload.js",
-		"jquery.min.js"
+		"injected.js"
 	]
 }

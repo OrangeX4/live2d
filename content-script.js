@@ -14,10 +14,11 @@
 }
 
 (function() {
-	console.log('这是 simple-chrome-plugin-demo 的content-script！');
-    injectCustomJs("https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js");
-    injectCustomJs("https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css");
-    injectCustomJs("https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/autoload.js");
-    injectCustomJs("autoload.js");
-    injectCustomJs("jquery.min.js");
+    console.log('这是 simple-chrome-plugin-demo 的content-script！');
+    injectCustomJs("injected.js")
+//    injectCustomJs("https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js");
+//    injectCustomJs("https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css");
+//    injectCustomJs("https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/autoload.js");
+//    injectCustomJs("autoload.js");
+//    injectCustomJs("jquery.min.js");
 })();
